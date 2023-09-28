@@ -1,0 +1,19 @@
+.UserList {
+  color: black;
+  right: 0;
+  min-height: 100vh;
+  flex-basis: 60%;
+  min-width: 60vw;
+}
+.selected {
+  background-color: #c9c9c9;
+}
+.UserRow {
+  padding: 2%;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.UserRow:hover {
+  background-color: #c9c9c9;
+}
